@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Hibernate</groupId>
+  <artifactId>TotalJars</artifactId>
+  <packaging>pom</packaging>
+  <version>0.0.1</version>
+  <name>TotalSamples Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  
+  
+ 
+  
+  <parent>
+  <groupId>WebService</groupId>
+  <artifactId>TotalJars</artifactId>
+  <version>0.0.1</version>
+  <relativePath>../WebService/pom.xml</relativePath>
+  </parent>
+  
+  
+  
+  <dependencies>
+ 									<!-- Hibernate framework -->
+
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate</artifactId>
+		<version>3.2.3.ga</version>
+	</dependency>
+	
+	<!-- Hibernate library dependecy start -->
+	<dependency>
+		<groupId>dom4j</groupId>
+		<artifactId>dom4j</artifactId>
+		<version>1.6.1</version>
+	</dependency>
+	
+	
+	
+	<dependency>
+		<groupId>antlr</groupId>
+		<artifactId>antlr</artifactId>
+		<version>2.7.7</version>
+	</dependency>
+	<!-- Hibernate library dependecy end -->
+	
+  </dependencies>
+  <build>
+    <finalName>TotalSamples</finalName>
+  </build>
+</project>
